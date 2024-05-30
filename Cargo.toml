@@ -1,0 +1,16 @@
+[package]
+name = "microbit-v2-clocks-timers"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+microbit-v2 = "0.14.0"
+nrf52833-hal = "0.18.0"
+embedded-hal = "1.0.0"
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
+
+
